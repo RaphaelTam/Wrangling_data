@@ -18,11 +18,11 @@ Documentation for this project include
 
 This project creates a data folder in the user's home directory: ~/data
 
-Data is downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Input data is downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 into a file named sensor.zip in the user's home directory: ~/sensor.zip
 
 Unzipped data is located in a folder named "UCI HAR Datset" in ~/data.  
 
-run_analysis.R extracts, transforms and loads the output tidy data set as "tidy.txt" into ~/data.  
+run_analysis.R gets, extracts, transforms the input data.  It loads the output tidy data set as "tidy.txt" into ~/data.  
 
 code_book.md provides detailed comments on the extract-transform-load process.
